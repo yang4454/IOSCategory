@@ -15,6 +15,8 @@
 		1F732DEA254A6D6600FF05E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F732DE9254A6D6600FF05E3 /* main.m */; };
 		1F732DF4254A6D6600FF05E3 /* IOSCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F732DF3254A6D6600FF05E3 /* IOSCategoryTests.m */; };
 		1F732DFF254A6D6700FF05E3 /* IOSCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F732DFE254A6D6700FF05E3 /* IOSCategoryUITests.m */; };
+		1F732E4F254A76F700FF05E3 /* OpenAndCloseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F732E4E254A76F700FF05E3 /* OpenAndCloseViewController.m */; };
+		1F732E55254A977400FF05E3 /* NSString+OpenAndClose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F732E54254A977400FF05E3 /* NSString+OpenAndClose.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1F732DFA254A6D6700FF05E3 /* IOSCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F732DFE254A6D6700FF05E3 /* IOSCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSCategoryUITests.m; sourceTree = "<group>"; };
 		1F732E00254A6D6700FF05E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F732E4D254A76F700FF05E3 /* OpenAndCloseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenAndCloseViewController.h; sourceTree = "<group>"; };
+		1F732E4E254A76F700FF05E3 /* OpenAndCloseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenAndCloseViewController.m; sourceTree = "<group>"; };
+		1F732E53254A977400FF05E3 /* NSString+OpenAndClose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+OpenAndClose.h"; sourceTree = "<group>"; };
+		1F732E54254A977400FF05E3 /* NSString+OpenAndClose.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+OpenAndClose.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		1F732DD6254A6D6100FF05E3 /* IOSCategory */ = {
 			isa = PBXGroup;
 			children = (
+				1F732E4C254A76D600FF05E3 /* Controller */,
 				1F732E17254A6F9400FF05E3 /* Category */,
 				1F732DD7254A6D6100FF05E3 /* AppDelegate.h */,
 				1F732DD8254A6D6100FF05E3 /* AppDelegate.m */,
@@ -144,8 +151,19 @@
 		1F732E18254A6FA200FF05E3 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				1F732E53254A977400FF05E3 /* NSString+OpenAndClose.h */,
+				1F732E54254A977400FF05E3 /* NSString+OpenAndClose.m */,
 			);
 			path = NSString;
+			sourceTree = "<group>";
+		};
+		1F732E4C254A76D600FF05E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F732E4D254A76F700FF05E3 /* OpenAndCloseViewController.h */,
+				1F732E4E254A76F700FF05E3 /* OpenAndCloseViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F732DDF254A6D6100FF05E3 /* ViewController.m in Sources */,
+				1F732E4F254A76F700FF05E3 /* OpenAndCloseViewController.m in Sources */,
+				1F732E55254A977400FF05E3 /* NSString+OpenAndClose.m in Sources */,
 				1F732DD9254A6D6100FF05E3 /* AppDelegate.m in Sources */,
 				1F732DEA254A6D6600FF05E3 /* main.m in Sources */,
 			);
